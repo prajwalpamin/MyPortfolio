@@ -1,0 +1,9 @@
+.home {
+    color:black;
+    margin-top:100px;
+  }
+  .progress-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }

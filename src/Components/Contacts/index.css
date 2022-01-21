@@ -1,0 +1,14 @@
+.contacts{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    padding: 15px;
+    margin:20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    margin:150px auto;
+    z-index: -1;
+}

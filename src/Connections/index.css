@@ -1,0 +1,47 @@
+#social-med {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+  }
+  #social-med div {
+    display: flex;
+    flex-direction: column;
+  }
+  #social-med div a {
+    font-size: 40px;
+  }
+  .fab.fa-instagram-square {
+    color: transparent;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background: -webkit-radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .fa-linkedin {
+    color: #0e76a8;
+  }
+  .fa-github {
+    color: white;
+  }
+  .fa-codepen {
+    color: white;
+  }
+  
