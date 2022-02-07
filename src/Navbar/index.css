@@ -22,6 +22,11 @@
     box-shadow: 0.5px 1px 10px 0.5px #b4f0c0;
     border-radius: 10px;
     letter-spacing: 1px;
+    transition: transform .2s ;
+    
+  }
+  .topbar-elements:hover{
+    transform: scale(1.2) ;
     
   }
   .topbar-elements h2{
