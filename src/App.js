@@ -9,9 +9,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router className="App">
+    <div>
+<Router className="App">
     <Navbar />
-
+    {/* <div class="background"></div> */}
     <Routes>
       <Route exact path="/" element={<Home />}></Route>
       <Route path="/contact" element={<Contact/>}></Route>
@@ -19,6 +20,8 @@ function App() {
       <Route path="/works" element={<Works/>}></Route>
     </Routes>
   </Router>
+    </div>
+    
   );
 }
 

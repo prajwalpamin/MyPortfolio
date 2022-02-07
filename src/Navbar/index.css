@@ -8,8 +8,8 @@
   #topbar {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(black,grey);
-    color: white;
+    /* background-image: linear-gradient(black,grey); */
+    background-color: gray;
     padding: 10px;
     position: relative;
     box-shadow: 0.5px 1px 10px 0.3px#E1D9D1;
@@ -24,9 +24,14 @@
     letter-spacing: 1px;
     
   }
+  .topbar-elements h2{
+    letter-spacing: 2px;
+  }
   .topbar-elements:hover {
-    background-image: linear-gradient(grey,black);
-    color:rgb(146, 184, 146);
+    /* background-image: linear-gradient(grey,black); */
+    background-color:rgb(81, 100, 14);
+    
+    
   }
   .topbar-elements h2 {
     margin: 2px;
